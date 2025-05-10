@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Für dich, Sunny</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container" id="start-screen">
+    <h1>Für Sunny</h1>
+    <p style="font-size: small;">
+      Ich bin zwar jetzt auch nicht soo gut gelaunt heute aberrr gerade wo ich das hier programmiere geht es schon viel
+      besser haha
+      du kennst das hier alles eigentlich schon und ich hab das Gefühl das ist mittlerweile auch nicht mehr wirklich
+      etwas besonderes weil
+      du es jetzt schon so oft gesehen hast aber ich dachte ich mache es einfach nochmal und es ist doch noch ein
+      bisschen was besonderes für dich
+      Ich hab dich lieb ❤️
+    </p>
+    <button onclick="startSlideshow()">Noch ein paar Worte von mir vor Ende 2024</button>
+  </div>
+
+  <div class="container hidden" id="slideshow-container">
+    <h1>Für Sunny</h1>
+    <div id="countdown" class="countdown"></div>
+    <div class="slide-container" id="slide-container">
+      <div class="slide active">Ich liebe verdammt nochmal alles an dir</div>
+      <div class="slide">Auch wenn viele irgendwie deine Haare nicht schön finde ich finde sie richtig sexy ich finde
+        die haben irgendwie was</div>
+      <div class="slide">Das heißt natürlich nicht das die anderen auch schön sind die sind auch super und ich verstehe
+        auch nicht wie du die so schön hinbekommst</div>
+      <div class="slide">Es gab zwar dieses Jahr immer mal Höhen und Tiefen bei uns aber ich denke ich kann für uns
+        beide sagen das wir eine echt sehrrr schöne Zeit zusammen hatten und 2025 noch besser wird</div>
+      <div class="slide">Es sind jetzt einfach schon über 4 Monate die ich dich jetzt schon kenne das ist schon sehr
+        krass und jeden Tag haben wir immer geschrieben das müssen ein paar Wörter sein haha</div>
+      <div class="slide">Was ich mir vielleicht für das nächste Jahr wünschen würde ist das wir öfters FaceTime machen
+        da ich denke das uns beiden das ganz gut tut wenn wir uns so sehen und ein bisschen miteinander reden können
+      </div>
+      <div class="slide">Ich muss sagen gerade bin ich wieder richtig fröhlich haha da ich hoffe das du gerade wenn du
+        das liest ein Lächeln auf deinem Gesicht hast und alleine der Gedanke daran mich schon sehrrrr glücklich macht
+      </div>
+      <div class="slide">Es gibt bestimmt noch sooo viel mehr Sachen die ich sagen könnte aber mir fällt gerade nicht
+        wirklich alles ein und ich möchte dich ja auch nicht aufhalten haha</div>
+      <div class="slide">Wo ich das gerade schreibe ist noch der Stand das wir noch nicht wissen ob wir uns treffen
+        können oder nicht falls das so sein sollte kannst du dir sehr sicher sein das ich gerade wahrscheinlich in
+        Kreisen springe und der glücklichste Mensch der Welt bin</div>
+      <div class="slide">Ich liebe dich einfach sehr und wir schaffen alles zusammen</div>
+      <div class="slide">Achso und vielleicht nochmal so ein kleiner Tipp vielleicht schaust du hier nochmal nach 0 Uhr
+        vorbei wenn alles klappt sollte da noch etwas stehen haha</div>
+    </div>
+    <div class="navigation">
+      <button onclick="prevSlide()">❮ Zurück</button>
+      <button onclick="nextSlide()">Weiter ❯</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Mit ganz viel Liebe, dein Schwimmer/Herz</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
